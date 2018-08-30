@@ -36,7 +36,7 @@ html {
   width: 100%;
 }
 
-.horizontal-scroll-view > div {
+.horizontal-scroll-view>div {
   flex: 0 0 25%;
   /* doesn't grow nor shrink, initial width set to 25% of the parent's */
 }
@@ -77,7 +77,8 @@ nav li a.active {
   max-width: 600px;
 }
 
-.fa-facebook, .fa-google {
+.fa-facebook,
+.fa-google {
   color: white;
   padding: 0.2em;
 }
@@ -85,3 +86,10 @@ nav li a.active {
 .social-btn {
   margin-right: 1em;
 }
+
+.home-banner {
+  background-image: url(./assets/images/books.jpg);
+  max-height: 15em;
+}
+
+
